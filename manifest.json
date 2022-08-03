@@ -1,0 +1,15 @@
+{
+    "name": "iframefeaturedemo.livares",
+    "description": "Example to show iframe feature failure in clickable",
+    "architecture": "@CLICK_ARCH@",
+    "title": "IFrame feature demo",
+    "hooks": {
+        "iframefeaturedemo": {
+            "apparmor": "iframefeaturedemo.apparmor",
+            "desktop":  "iframefeaturedemo.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Rineez <rineez@livares.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

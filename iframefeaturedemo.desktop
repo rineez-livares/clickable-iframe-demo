@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=IFrame feature demo
+Exec=webapp-container --app-id="iframefeaturedemo.livares" $@ www/index.html
+Icon=assets/logo.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
